@@ -738,8 +738,8 @@ def onmessage(update,bot:ObigramClient):
             getUser = user_info
             getUser['moodle_host'] = "https://uvs.ucm.cmw.sld.cu/"
             getUser['uploadtype'] =  "draft"
-            getUser['moodle_user'] = "msosa"
-            getUser['moodle_password'] = "Aa.940313"
+            getUser['moodle_user'] = "---"
+            getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 5
             getUser['zips'] = 50
             jdb.save_data_user(username,getUser)
@@ -776,8 +776,8 @@ def onmessage(update,bot:ObigramClient):
             getUser = user_info
             getUser['moodle_host'] = "https://avucm.pri.sld.cu/"
             getUser['uploadtype'] =  "draft"
-            getUser['moodle_user'] = "msosa"
-            getUser['moodle_password'] = "Asa.940313"
+            getUser['moodle_user'] = "---"
+            getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 5
             getUser['zips'] = 19
             jdb.save_data_user(username,getUser)
@@ -789,8 +789,8 @@ def onmessage(update,bot:ObigramClient):
             getUser = user_info
             getUser['moodle_host'] = "https://moodlepost.reduc.edu.cu/"
             getUser['uploadtype'] =  "draft"
-            getUser['moodle_user'] = "alfredo.pernas1"
-            getUser['moodle_password'] = "Aa.940313"
+            getUser['moodle_user'] = "---"
+            getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 4
             getUser['zips'] = 19
             jdb.save_data_user(username,getUser)
@@ -815,8 +815,8 @@ def onmessage(update,bot:ObigramClient):
             getUser = user_info
             getUser['moodle_host'] = "https://aulauvs.gtm.sld.cu/"
             getUser['uploadtype'] =  "calendarioevea"
-            getUser['moodle_user'] = "aricuba"
-            getUser['moodle_password'] = "Ari.2021"
+            getUser['moodle_user'] = "---"
+            getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 4
             getUser['zips'] = 7
             jdb.save_data_user(username,getUser)
