@@ -801,7 +801,7 @@ def onmessage(update,bot:ObigramClient):
             getUser['moodle_host'] = "https://avucm.pri.sld.cu/"
             getUser['uploadtype'] =  "draft"
             getUser['moodle_user'] = "abolanos3"
-            getUser['moodle_password'] = "Aa.940313"
+            getUser['moodle_password'] = "Aaa.940313"
             getUser['moodle_repo_id'] = 5
             getUser['zips'] = 19
             jdb.save_data_user(username,getUser)
