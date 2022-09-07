@@ -181,7 +181,7 @@ def processFile(update,bot,message,file,thread=None,jdb=None):
     files = []
     if data:
         for draft in data:
-            files.append({'name':draft['files'],'directurl':draft['url']})
+            files.append({'name':draft['file'],'directurl':draft['url']})
         if user_info['urlshort']==1:
             if len(files)>0:
                 i = 0
